@@ -17,8 +17,15 @@ A simple calculator application built using JavaScript, HTML, and CSS. It suppor
 
 ## Installation
 1. Clone the repository:
-   git clone https://github.com/sabbanimanideep/CODSOFT_LEVEL-1_TASK-3.git
+   ```sh
+   https://github.com/sabbanimanideep/CODSOFT_LEVEL-1_TASK-3.git
    ```
+2. Navigate to the project directory:
+   ```sh
+   cd CODSOFT_LEVEL-1_TASK-3
+   ```
+3. Open `index.html` in your browser to use the CODSOFT_LEVEL-1_TASK-3.
+
 ## Usage
 - Click on the number buttons to input numbers.
 - Click on the operator buttons (+, -, *, /) to perform calculations.
@@ -27,7 +34,7 @@ A simple calculator application built using JavaScript, HTML, and CSS. It suppor
 
 ## Screenshots
 ### Default View
-![Default Calculator](https://raw.githubusercontent.com/sabbanimanideep/calculator/main/images/default-view.png)
+![Default Calculator](https://github.com/sabbanimanideep/CODSOFT_LEVEL-1_TASK-3/blob/main/Screenshot%202025-03-01%20at%201.15.58%E2%80%AFPM.png?raw=true)
 
 ## Contributing
 Contributions are welcome! Follow these steps to contribute:
@@ -39,3 +46,5 @@ Contributions are welcome! Follow these steps to contribute:
 
 ## License
 This project is licensed under the MIT License.
+
+
