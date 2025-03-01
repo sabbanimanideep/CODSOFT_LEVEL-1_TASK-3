@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="calculator">
+           <input type="text" class="display">
+            <div class="btns">
+                <button class="btn" onclick="cleardisplay()">AC</button>
+                <button class="btn" onclick="deletevalue()">DE</button>
+                <button class="btn" onclick="appendTodisplay('%')">%</button>
+                <button class="btn" id="color" onclick="appendTodisplay('/')">/</button>
+                <button class="btn" onclick="appendTodisplay('7')">7</button>
+                <button class="btn" onclick="appendTodisplay('8')">8</button>
+                <button class="btn" onclick="appendTodisplay('9')">9</button>
+                <button class="btn" id="color" onclick="appendTodisplay('X')">X</button>
+                <button class="btn" onclick="appendTodisplay('4')">4</button>
+                <button class="btn" onclick="appendTodisplay('5')">5</button>
+                <button class="btn" onclick="appendTodisplay('6')">6</button>
+                <button class="btn" id="color" onclick="appendTodisplay('-')">-</button>
+                <button class="btn" onclick="appendTodisplay('1')">1</button>
+                <button class="btn" onclick="appendTodisplay('2')">2</button>
+                <button class="btn" onclick="appendTodisplay('3')">3</button>
+                <button class="btn" id="color" onclick="appendTodisplay('+')">+</button>
+                <button class="btn" onclick="appendTodisplay('00')">00</button>
+                <button class="btn" onclick="appendTodisplay('0')">0</button>
+                <button class="btn" onclick="appendTodisplay('.')">.</button>
+                <button class="btn" id="color" onclick="calculateresult()">=</button>
+            </div>
+        </div>
+    </header>
+    <script src="script.js"></script>
+</body>
+</html>
